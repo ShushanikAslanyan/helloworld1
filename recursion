@@ -1,0 +1,15 @@
+<!DOCTYPE>
+<html>
+<body>
+<script>
+const a = function (n) {
+   if (n < 1)
+     return;
+   console.log (n);
+   a (n-1);
+  };
+  
+   a(100);
+</script>
+</body>
+</html>
